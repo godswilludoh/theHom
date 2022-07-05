@@ -1,0 +1,51 @@
+/*Utility Classes*/
+a{
+    text-decoration:none;
+}
+
+.text-primary{
+    color: #4373af;
+}
+
+button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.btn{
+    background: #4373af;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #1c5fb0;
+}
+
+#navbar{
+    display: flex;
+    width:100vw;
+    align-content: center;
+    justify-content: space-around;
+    position:sticky;
+    top: 20;
+    z-index: 10;
+    margin: 40px 10px;
+    background: #fff;
+}
+
+#navbar .logo{
+    font-size: 23px;
+    font-weight: 600;
+    color: #141414;
+}
+
+#navbar .link-menu a{
+    color: #141414;
+    margin-left: 40px;
+}
+
+#navbar .link-menu a:hover{
+    color: #4373af;  
+}

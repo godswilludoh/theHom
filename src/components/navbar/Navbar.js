@@ -1,24 +1,26 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
-import Logo from '../../assets/TheHomlogo.PNG';
 
 const Navbar = () => {
 	return (
-		<div className='navbar'>
+		<div id='navbar'>
 			<div className='logo'>
-				<Link to='/'>
-					<img src={Logo} alt='logo' />
-				</Link>
+				<a to='#'>
+					<div className='logo'>
+						<span>The</span>
+						<span className='text-primary'>Hom</span>
+					</div>
+				</a>
 			</div>
-			<div>
-				<Link to='/'>Home</Link>
-				<Link to='/about'>About</Link>
-				<Link to='/service'>Service</Link>
-				<Link to='/blog'>Blog</Link>
-				<Link to='/contact'>Contact</Link>
-				<button className='sign'>Sign</button>
+			<div className='link-menu'>
+				<a href='#'>Home</a>
+				<a href='#'>About</a>
+				<a href='#'>Service</a>
+				<a href='#'>Blog</a>
+				<a href='#'>Contact</a>
 			</div>
+
+			<button className='btn'>SIGN</button>
 		</div>
 	);
 };
