@@ -17,6 +17,10 @@ button{
 .btn{
     background: #4373af;
     font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #1c5fb0;
 }
 
 #navbar{
