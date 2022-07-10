@@ -4,17 +4,21 @@ import HomeImage from '../../assets/home.png';
 
 const SectionOne = () => {
 	return (
-		<div className='section-body'>
+		<div id='section-body'>
 			<div className='container'>
-				<h1>
-					Find Your Best <br />
-					Smart{' '}
-					<span className='text-primary'>
-						Real <br />
-						Estate
-					</span>
-				</h1>
-				<img src={HomeImage} alt='Home' />
+				<div className='home-text'>
+					<h1>
+						Find Your Best <br />
+						Smart{' '}
+						<span className='text-primary'>
+							Real <br />
+							Estate
+						</span>
+					</h1>
+				</div>
+				<div className='image'></div>
+
+				{/* <img src={HomeImage} alt='Home' /> */}
 			</div>
 		</div>
 	);

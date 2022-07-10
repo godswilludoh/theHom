@@ -1,0 +1,51 @@
+#sectiontwo{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+h4{
+    color: #4373af;  
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+   font-family: arial,sans-serif;
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.cards-container{
+    display: flex;
+    max-width: 80%;
+    margin: 4rem auto;
+    line-height: 1.8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    border: 1px solid #ccc;
+    border-radius:1rem;
+    padding: 4rem;
+    margin-right: 3rem;
+}
+
+p{
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+
+.btn{
+    color: #4373af;  
+    background-color: #fff;
+    border: 1px solid #4373af; 
+    font-weight: 700;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #4373af; ;
+}
+
